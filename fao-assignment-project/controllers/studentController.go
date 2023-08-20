@@ -127,7 +127,7 @@ func UpdateStudents(ctx *gin.Context) {
 	// Update the fields of the associated Scores
 	for i, newItem := range Students.Scores {
 		if i < len(existingStudents.Scores) {
-			existingStudents.Scores[i].AssignmentTitle = newItem.AssignmentTitle
+			existingStudents.Scores[i].Assignment_title = newItem.Assignment_title
 			existingStudents.Scores[i].Description = newItem.Description
 			existingStudents.Scores[i].Score = newItem.Score
 			// Save the Item update within the transaction
