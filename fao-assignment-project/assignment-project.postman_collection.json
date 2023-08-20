@@ -12,14 +12,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/Students",
+					"raw": "http://localhost:8080/students",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"Students"
+						"students"
 					]
 				}
 			},
@@ -35,14 +35,14 @@
 					"raw": "{\r\n  \"name\": \"Loid Forger\",\r\n  \"age\": 28,\r\n  \"scores\": [\r\n    {\r\n      \"assignment_title\": \"Assignment Project 1 Edit\",\r\n      \"description\": \"Create simple API without auth\",\r\n      \"score\": 80\r\n    }\r\n  ]\r\n}"
 				},
 				"url": {
-					"raw": "http://localhost:8080/Student/5",
+					"raw": "http://localhost:8080/student/5",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"Student",
+						"student",
 						"5"
 					]
 				}
@@ -56,17 +56,17 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"name\": \"Killua\",\r\n  \"age\": 20,\r\n  \"scores\": [\r\n    {\r\n      \"assignment_title\": \"Assignment Project 1\",\r\n      \"description\": \"Create simple API without middleware\",\r\n      \"score\": 90\r\n    }\r\n  ]\r\n}"
+					"raw": "{\r\n  \"name\": \"Killua2\",\r\n  \"age\": 20,\r\n  \"scores\": [\r\n    {\r\n      \"assignment_title\": \"Assignment Project 1\",\r\n      \"description\": \"Create simple API without middleware\",\r\n      \"score\": 90\r\n    }\r\n  ]\r\n}"
 				},
 				"url": {
-					"raw": "http://localhost:8080/Student",
+					"raw": "http://localhost:8080/student",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"Student"
+						"student"
 					]
 				}
 			},
@@ -78,15 +78,15 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/Student/1",
+					"raw": "http://localhost:8080/student/7",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"Student",
-						"1"
+						"student",
+						"7"
 					]
 				}
 			},
@@ -98,15 +98,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/Student/2",
+					"raw": "http://localhost:8080/student/5",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"Student",
-						"2"
+						"student",
+						"5"
 					]
 				}
 			},
